@@ -17,4 +17,4 @@ The tiles were made from the original reflectance bands (red, green, blue) with 
 
 ## How they are made
 
-MacPrepper's `./macprepper maps satellite --recent` command downloads the mosaic squares from the Copernicus Data Space Ecosystem and cuts them into tiles. The code is in `prepper/satellite.py` and `scripts/satellite_recent.py`in MacPrepper.
+MacPrepper's `./macprepper maps satellite --recent` command downloads the mosaic squares from the Copernicus Data Space Ecosystem and cuts them into tiles. The code is in `prepper/satellite.py` and `scripts/satellite_recent.py` in MacPrepper.
