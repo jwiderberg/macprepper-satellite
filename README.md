@@ -1,6 +1,6 @@
 # MacPrepper satellite tiles
 
-Ready-made satellite map tiles for [MacPrepper](https://github.com/jwiderberg/macprepper), an offline emergency kit that runs on a Mac. Each release holds one PMTiles file that MacPrepper's map viewer shows as a satellite layer, with no internet needed once it is downloaded.
+Ready-made satellite map tiles for MacPrepper, an offline emergency kit that runs on a Mac. Each release holds one PMTiles file that MacPrepper's map viewer shows as a satellite layer, with no internet needed once it is downloaded.
 
 ## What is in a release
 
@@ -17,4 +17,4 @@ The tiles were made from the original reflectance bands (red, green, blue) with 
 
 ## How they are made
 
-MacPrepper's `./macprepper maps satellite --recent` command downloads the mosaic squares from the Copernicus Data Space Ecosystem and cuts them into tiles. The code is in `prepper/satellite.py` and `scripts/satellite_recent.py` in the MacPrepper repo.
+MacPrepper's `./macprepper maps satellite --recent` command downloads the mosaic squares from the Copernicus Data Space Ecosystem and cuts them into tiles. The code is in `prepper/satellite.py` and `scripts/satellite_recent.py`in MacPrepper.
